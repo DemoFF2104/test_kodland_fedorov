@@ -1,0 +1,72 @@
+* {
+ box-sizing: border-box;
+}
+html, body, h1, h2, h3, h4, h5,p {
+ margin: 0;
+ padding: 0;
+ font-family: Roboto, Arial;
+}
+.container {
+ max-width: 960px;
+ margin: 0 auto;
+}
+h1 {
+ text-align: center;
+}
+.wrapper {
+ padding-top: 40px;
+ display: flex;
+ justify-content: space-between;
+}
+.card {
+ width: 300px;
+ border: 2px solid #e2e2e2;
+ border-radius: 5px;
+}
+.card__img {
+ height: 205px;
+ background: url(img/boots.png) center no-repeat #E2E2E2;
+ background-size: cover;
+}
+.card__desc {
+ padding: 30px 25px;
+}
+.card__desc-name, .card__desc-price span {
+ font-size: 20px;
+ color: #333333
+}
+.card__desc-price {
+ font-size: 35px;
+ font-weight: bold;
+ color: #333333
+}
+.card__desc-price span {
+ font-weight: normal;
+}
+.card__desc-spec {
+ font-size: 15px;
+ color: #666666;
+ margin-top: 7px;
+ margin-bottom: 20px;
+}
+.card__desc-wrap {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.card__desc-cart {
+ width: 50px;
+ height: 40px;
+ background-color: #4ed17b;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: none;
+ outline: none;
+ border-radius: 5px;
+ text-align: center;
+ cursor: pointer;
+}
+.card__desc-cart img {
+ width: 20px;
+}
